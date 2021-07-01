@@ -1,4 +1,8 @@
 @font-face {
   font-family: moonrising;
-  src: url(../fonts/moonrising.ttf);
+  src: url(../fonts/Moonrising.ttf);
+}
+
+h1 {
+  font-family: moonrising;
 }
