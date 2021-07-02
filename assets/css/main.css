@@ -1,9 +1,10 @@
 @font-face {
-  font-family: moonrising;
-  src: url(../fonts/Moonrising.ttf);
+  font-family: main;
+  src: url(../fonts/cubic.ttf);
 }
 
 h1 {
-  font-family: moonrising;
+  font-family: main;
   font-size: 70px;
+  text-align: center;
 }
