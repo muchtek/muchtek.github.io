@@ -5,7 +5,7 @@
 
 .center {
   margin: auto;
-  width: 95%;
+  width: 97vh;
   height: 96vh;
   border: 3px solid #1e1e1e;
   padding: 10px;
@@ -13,10 +13,10 @@
   background-color: #1e1e1e;
 }
 
-.links {
+.links, .links:viewed {
   color: #ffffff;
 }
-.links:active {
+.links:active, .links:viewed:active {
   color: #007acc;
 }
 
