@@ -1,0 +1,14 @@
+.center {
+  margin: auto;
+  width: 95%;
+  height: 96vh;
+  border: 3px solid #1e1e1e;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+}
+
+body {
+  background-color:	#2d2d30;
+  color: #ffffff;
+}
