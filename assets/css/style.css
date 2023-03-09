@@ -1,3 +1,8 @@
+@font-face {
+  font-family: hack;
+  src: url(../fonts/hack-regular.woff);
+}
+
 .center {
   margin: auto;
   width: 95%;
@@ -18,4 +23,5 @@
 body {
   background-color:	#2d2d30;
   color: #ffffff;
+  font-family: hack;
 }
