@@ -8,6 +8,13 @@
   background-color: #1e1e1e;
 }
 
+.links {
+  color: #ffffff;
+}
+.links:active {
+  color: #007acc;
+}
+
 body {
   background-color:	#2d2d30;
   color: #ffffff;
