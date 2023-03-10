@@ -26,3 +26,19 @@ body {
   font-family: hack;
   font-size: 22px;
 }
+
+.code-string {
+  color: #eed7a1;
+}
+
+.code-int {
+  color: #475c6c;
+}
+
+.code-func {
+  color: #cd8b62;
+}
+
+.code-ext {
+  color: #eb2d3a;
+}
