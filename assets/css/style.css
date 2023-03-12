@@ -20,11 +20,14 @@ div {
   min-height: 100vh;
 }
 
+div.icons {
+  display: inline-block;
+}
+
 a.icon {
   font-size: 22px;
   color: #000000;
   transition: 0.3s;
-  display: inline-block;
   float: left;
 }
 a.icon:hover {
