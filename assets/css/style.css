@@ -20,13 +20,23 @@ div {
   min-height: 100vh;
 }
 
-a {
+a.icon {
   font-size: 22px;
   color: #000000;
   transition: 0.3s;
+  float: left;
 }
-a:hover {
+a.icon:hover {
   font-size: 22px;
   color: #0576c2;
 }
 
+a {
+  font-size: 22px;
+  color: #108dd6;
+  transition: 0.3s;
+}
+a:hover {
+  font-size: 22px;
+  color: #3baaeb;
+}
