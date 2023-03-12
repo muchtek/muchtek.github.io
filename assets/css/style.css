@@ -33,11 +33,11 @@ a.icon:hover {
 }
 
 a {
-  font-size: 22px;
+  font-size: 12px;
   color: #108dd6;
   transition: 0.3s;
 }
 a:hover {
-  font-size: 22px;
+  font-size: 12px;
   color: #3baaeb;
 }
