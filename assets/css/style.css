@@ -11,6 +11,10 @@ html, body {
   font-size: 12px;
 }
 
+h3 {
+  font-size: 14px;
+}
+
 div {
   display: flex;
   flex-direction: column;
