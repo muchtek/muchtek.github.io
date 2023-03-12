@@ -22,7 +22,9 @@ a:hover {
   color: #0576c2;
 }
 
-body {
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: hack;
   font-size: 12px;
 }
