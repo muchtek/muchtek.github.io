@@ -29,10 +29,12 @@ a.icon {
   color: #000000;
   transition: 0.3s;
   float: left;
+  text-decoration: none;
 }
 a.icon:hover {
   font-size: 22px;
   color: #0576c2;
+  text-decoration: none;
 }
 
 a {
