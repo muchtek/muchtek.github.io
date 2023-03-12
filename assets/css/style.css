@@ -3,42 +3,20 @@
   src: url(../fonts/hack-regular.woff);
 }
 
-.center {
-  margin: auto;
-  width: 97%;
-  height: 96vh;
-  border: 3px solid #1e1e1e;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #1e1e1e;
+div {
+  width: 100%;
+  top: 50%;
+  left: 50%;
 }
 
-.links, .links:viewed {
-  color: #ffffff;
-}
-.links:active, .links:viewed:active {
+a {
   color: #007acc;
+}
+a:hover {
+  color: #1294eb;
 }
 
 body {
-  background-color:	#2d2d30;
-  color: #ffffff;
   font-family: hack;
-  font-size: 22px;
-}
-
-.code-string {
-  color: #eed7a1;
-}
-
-.code-int {
-  color: #475c6c;
-}
-
-.code-func {
-  color: #cd8b62;
-}
-
-.code-ext {
-  color: #eb2d3a;
+  font-size: 12px;
 }
