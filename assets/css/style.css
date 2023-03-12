@@ -24,7 +24,7 @@ a.icon {
   font-size: 22px;
   color: #000000;
   transition: 0.3s;
-  display: inline
+  display: inline;
   float: left;
 }
 a.icon:hover {
