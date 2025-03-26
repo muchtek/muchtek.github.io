@@ -1,24 +1,56 @@
+
+
 <!doctype html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <div>
-      <h1 class="cssanimation fadeInBottom">hi, I'm muchtek</h1>
-      <p><i>life is lowkey goated</i></p>
-      <p>You can check my <a href="https://github.com/muchtek">github</a> or <a href="https://repl.it/@muchtek">repl.it</a> to see stuff I've worked on</p>
-      <span class="icons">
+    <head>
+        <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="child">
+            <h1 id="line1"></h1>
+            <p id="line2"><i></i></p>
+            <p id="line3"></p>
+        </div>
+      <!-- <span class="icons">
         <a class="icon" href="https://github.com/muchtek"><i class="bi bi-github"></i>&nbsp&nbsp</a>
         <a class="icon" href="https://stackoverflow.com/users/14481956/muchtek"><i class="bi bi-stack-overflow"></i>&nbsp&nbsp</a>
         <a class="icon" href="https://twitter.com/muchteks"><i class="bi bi-twitter"></i>&nbsp&nbsp</a>
         <a class="icon" href="https://discord.gg/NBkydHyVns"><i class="bi bi-discord"></i>&nbsp&nbsp</a>
         <a class="icon" href="https://www.buymeacoffee.com/muchtek"><i class="bi bi-cup-hot"></i></a>
-      </span>
-      
-      
-    </div>
-  </body>
+      </span> -->
+    </body>
+    <script>
+        let lines = [
+            "Hi, I'm muchtek.",
+            "\"Life is lowkey goated\"",
+            "You can check my github to see stuff I'm working on.",
+            "I am proficient in the following languages:"
+        ];
+        
+        let lineIndex = 0;
+        let charIndex = 0;
+        
+        function typeLine() {
+            if (lineIndex < lines.length) {
+                let currentLine = document.getElementById("line" + (lineIndex + 1));
+                let currentText = lines[lineIndex];
+                
+                if (charIndex < currentText.length) {
+                    currentLine.innerHTML += currentText.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(typeLine, Math.floor(Math.random() * (150 - 70 + 1)) + 70); // Typing speed
+                } else {
+                    // Move to the next line after a short delay
+                    setTimeout(() => {
+                        charIndex = 0;
+                        lineIndex++;
+                        typeLine();
+                    }, 1000); // Pause after each line
+                }
+            }
+        }
+        
+        typeLine();
+    </script>
 </html>
